@@ -26,4 +26,6 @@ main {
   width: 675px;
   height: 500px;
   background-color: orange;
+  flex-direction: column;
 }
+
