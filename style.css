@@ -8,4 +8,11 @@ header {
   display: flex;
   background-color: rgb(50, 167, 145);
   height: 80px;
+  justify-content: space-between;
+}
+
+.trybewarts-login {
+  display: flex;
+  order: 1;
+  margin-right: 2%;
 }
