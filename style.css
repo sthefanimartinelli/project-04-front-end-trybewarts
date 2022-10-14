@@ -83,3 +83,8 @@ header button {
 #email-casa {
   display: flex;
 }
+
+#familia div {
+  display: flex;
+  flex-direction: column;
+}
