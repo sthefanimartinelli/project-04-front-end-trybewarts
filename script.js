@@ -15,5 +15,3 @@ botaoEntrar.addEventListener('click', () => {
 checkAgreement.addEventListener('change', () => {
   botaoSubmit.disabled = !checkAgreement.checked;
 });
-
-botaoSubmit.addEventListener('click', agreement);
