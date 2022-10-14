@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inknut Antiqua', serif;
+  font-weight: 400;
 }
 
 header {
@@ -9,6 +16,7 @@ header {
   background-color: rgb(50, 167, 145);
   height: 80px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .trybewarts-login {
@@ -19,13 +27,13 @@ header {
 
 main {
   display: flex;
+  background-color: #efefef;
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
   height: 500px;
-  background-color: orange;
   flex-direction: column;
 }
 
@@ -34,5 +42,44 @@ main {
 }
 
 #nome-sobrenome {
+  display: flex;
+}
+
+h1 {
+  color: white;
+}
+
+.trybewarts-header-logo {
+  height: 80%;
+  margin-left: 20px;
+}
+
+input {
+  font-family: 'Inknut Antiqua', serif;
+}
+
+header input {
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
+
+header button {
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+  font-family: 'Inknut Antiqua', serif;
+  background-color: #5a1184;
+  color: white;
+  width: 80px;
+}
+
+#evaluation-form input , #evaluation-form select {
+  border-radius: 5px;
+  margin: 10px 10px;
+  border: none;
+}
+
+#email-casa {
   display: flex;
 }
