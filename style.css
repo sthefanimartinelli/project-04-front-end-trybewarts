@@ -7,8 +7,6 @@
 }
 
 body {
-
-  /* font-family: 'Inknut Antiqua', serif; */
   font-weight: 400;
 }
 
@@ -28,8 +26,6 @@ header {
 
 main {
   display: flex;
-
-  /* background-color: #efefef; */
 }
 
 #evaluation-form {
@@ -46,41 +42,6 @@ main {
 #nome-sobrenome {
   display: flex;
 }
-
-/* h1 {
-  color: white;
-}
-
-.trybewarts-header-logo {
-  height: 80%;
-  margin-left: 20px;
-}
-
-input {
-  font-family: 'Inknut Antiqua', serif;
-}
-
-header input {
-  border-radius: 5px;
-  margin-right: 10px;
-  border: none;
-}
-
-header button {
-  border-radius: 5px;
-  margin-right: 10px;
-  border: none;
-  font-family: 'Inknut Antiqua', serif;
-  background-color: #5a1184;
-  color: white;
-  width: 80px;
-}
-
-#evaluation-form input , #evaluation-form select {
-  border-radius: 5px;
-  margin: 10px 10px;
-  border: none;
-} */
 
 #email-casa {
   display: flex;
