@@ -7,7 +7,8 @@
 }
 
 body {
-  font-family: 'Inknut Antiqua', serif;
+
+  /* font-family: 'Inknut Antiqua', serif; */
   font-weight: 400;
 }
 
@@ -27,7 +28,8 @@ header {
 
 main {
   display: flex;
-  background-color: #efefef;
+
+  /* background-color: #efefef; */
 }
 
 #evaluation-form {
@@ -45,7 +47,7 @@ main {
   display: flex;
 }
 
-h1 {
+/* h1 {
   color: white;
 }
 
@@ -78,7 +80,7 @@ header button {
   border-radius: 5px;
   margin: 10px 10px;
   border: none;
-}
+} */
 
 #email-casa {
   display: flex;
