@@ -42,10 +42,10 @@ main {
 #nome-sobrenome {
   display: flex;
 }
-
+/* 
 #email-casa {
   display: flex;
-}
+} */
 
 #familia div {
   display: flex;
