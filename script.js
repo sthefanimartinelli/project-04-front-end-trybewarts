@@ -25,20 +25,3 @@ elementTextarea.addEventListener('keyup', () => {
   const totalCaracteres = numeroMaxCaracteres - numeroCaracteres;
   contador.innerHTML = JSON.stringify(totalCaracteres);
 });
-
-// botaoSubmit.addEventListener('click', (event) => {
-//   const primeiroForm = document.getElementById('evaluation-form');
-//   const formularioDados = document.getElementById('form-data');
-//   const nomeInserido = document.getElementById('nome-inserido');
-//   const casaInserida = document.getElementById('casa-inserida');
-//   const familiaInserida = document.getElementById('familia-inserida');
-//   const materiasInseridas = document.getElementById('materias-inseridas');
-//   const avaliacaoInserida = document.getElementById('avaliacao-inserida');
-//   const comentarioInserido = document.getElementById('comentario-inserido');
-
-//   // event.preventDefault();
-//   primeiroForm.style.display = 'none';
-//   formularioDados.style.display = 'flex';
-//   // formularioDados.style.backgroundColor = 'orange';
-//   console.log(inputEmail.value);
-// });
