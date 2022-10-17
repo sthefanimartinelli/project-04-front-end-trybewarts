@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@400;700&display=swap'); */
 
 * {
   margin: 0;
@@ -7,21 +7,21 @@
 }
 
 body {
-  font-weight: 400;
+  /* font-weight: 400; */
 }
 
 header {
   display: flex;
   background-color: rgb(50, 167, 145);
-  height: 80px;
-  justify-content: space-between;
-  align-items: center;
+  /* height: 80px; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
 }
 
 .trybewarts-login {
   display: flex;
-  order: 1;
-  margin-right: 2%;
+  /* margin-right: 2%; */
+  /* flex-grow: 1; */
 }
 
 main {
@@ -31,7 +31,7 @@ main {
 #evaluation-form {
   display: flex;
   width: 675px;
-  height: 500px;
+  /* height: 500px; */
   flex-direction: column;
 }
 
@@ -39,10 +39,10 @@ main {
   height: 500px;
 }
 
-#nome-sobrenome {
+/* #nome-sobrenome {
   display: flex;
 }
-/* 
+
 #email-casa {
   display: flex;
 } */
@@ -59,4 +59,15 @@ main {
 
 #agreement-box {
   display: flex;
+}
+
+#input-inicial {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#form-data {
+  display: none;
+  width: 675px;
+  height: 500px;
 }

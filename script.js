@@ -1,4 +1,4 @@
-const inputEmail = document.getElementById('input-email');
+const inputEmail = document.getElementById('meu-email');
 const inputSenha = document.getElementById('input-senha');
 const botaoEntrar = document.querySelector('#botaoEntrar');
 const checkAgreement = document.querySelector('#agreement');
@@ -18,10 +18,27 @@ checkAgreement.addEventListener('change', () => {
 });
 
 elementTextarea.addEventListener('keyup', () => {
-  let contador = document.getElementById('counter');
+  const contador = document.getElementById('counter');
   contador.innerHTML = '500';
-  let numeroMaxCaracteres = elementTextarea.maxLength;
-  let numeroCaracteres = elementTextarea.value.length;
-  let totalCaracteres = numeroMaxCaracteres - numeroCaracteres;
+  const numeroMaxCaracteres = elementTextarea.maxLength;
+  const numeroCaracteres = elementTextarea.value.length;
+  const totalCaracteres = numeroMaxCaracteres - numeroCaracteres;
   contador.innerHTML = JSON.stringify(totalCaracteres);
 });
+
+// botaoSubmit.addEventListener('click', (event) => {
+//   const primeiroForm = document.getElementById('evaluation-form');
+//   const formularioDados = document.getElementById('form-data');
+//   const nomeInserido = document.getElementById('nome-inserido');
+//   const casaInserida = document.getElementById('casa-inserida');
+//   const familiaInserida = document.getElementById('familia-inserida');
+//   const materiasInseridas = document.getElementById('materias-inseridas');
+//   const avaliacaoInserida = document.getElementById('avaliacao-inserida');
+//   const comentarioInserido = document.getElementById('comentario-inserido');
+
+//   // event.preventDefault();
+//   primeiroForm.style.display = 'none';
+//   formularioDados.style.display = 'flex';
+//   // formularioDados.style.backgroundColor = 'orange';
+//   console.log(inputEmail.value);
+// });
